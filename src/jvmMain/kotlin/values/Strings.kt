@@ -1,0 +1,8 @@
+package values
+
+object ResString {
+
+
+
+
+}
