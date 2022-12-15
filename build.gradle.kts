@@ -26,6 +26,7 @@ kotlin {
         val jvmMain by getting {
             dependencies {
                 implementation(compose.desktop.currentOs)
+                implementation(compose.desktop.windows_x64)
                 implementation("org.apache.poi:poi:3.9")
                 implementation("org.apache.poi:poi-ooxml:3.15")
             }
@@ -38,7 +39,7 @@ compose.desktop {
     application {
         mainClass = "MainKt"
         nativeDistributions {
-            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
+            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb, TargetFormat.Exe)
             packageName = "TeacherQuestHelper"
             packageVersion = "1.0.0"
         }
