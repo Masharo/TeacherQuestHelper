@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.masharo"
-version = "1.0-SNAPSHOT"
+version = "1.0.1"
 
 repositories {
     google()
@@ -41,7 +41,7 @@ compose.desktop {
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb, TargetFormat.Exe)
             packageName = "TeacherQuestHelper"
-            packageVersion = "1.0.0"
+            packageVersion = "1.0.1"
         }
     }
 }

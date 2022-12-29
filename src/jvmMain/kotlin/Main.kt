@@ -243,7 +243,7 @@ fun Item(record: Record) {
                 .fillMaxWidth(),
             textAlign = TextAlign.Center,
             fontSize = 25.sp,
-            text = "Колличество ответов"
+            text = "Количество ответов"
         )
 
         Row(
